@@ -7,7 +7,59 @@
   --secondary-accent-color-1: #1c1c1c;
   --secondary-accent-color-2: #41484e;
 }
-/* Style Nav bar */
-.bg-dark {
-  background-color: var(--constrast-color) !important;
+/* Global Styles */
+body {
+  background-color: var(--constrast-color);
+  color: var(--text-color);
+}
+.btn {
+  border: none;
+}
+.btn:hover {
+  box-shadow: 0 0 10px #f127a0;
+}
+img:hover {
+  filter: brightness(0.8) saturate(1.2) contrast(1.2)
+    drop-shadow(0 0 10px #d50a84);
+}
+/* Navigation Bar */
+.navbar {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+.navbar-nav .nav-link {
+  color: var(--text-color);
+}
+/* Hero Jumbotron Section */
+#hero {
+  margin-top: 20px;
+}
+#hero img {
+  margin-bottom: 15px;
+}
+/* Projects/Work Section */
+.card-body a.btn {
+  background-color: var(--primary-accent-color);
+  color: var(--text-color);
+}
+/* Skills/About Me Section */
+#skills-about .list-group {
+  background-color: var(--primary-accent-color);
+}
+#skills-about .list-group-item {
+  background-color: var(--primary-accent-color);
+  color: var(--text-color);
+  border: none;
+  border-bottom: 1px solid white;
+}
+#skills-about .list-group-item:last-child {
+  border-bottom: none;
+}
+@media (max-width: 767px) {
+  #skills-about h2 {
+    margin-top: 24px;
+  }
 }

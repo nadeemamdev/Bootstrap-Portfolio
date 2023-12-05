@@ -7,24 +7,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nadeem Mahomed, Web Artisan</title>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="/Assets/css/style.css">
 </head>
 
 <body>
-    <header class="p-3 bg-dark text-white">
-        <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="/Assets/images/logo.png"
-                    class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"></a>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--primary-accent-color);">
+        <a class="navbar-brand" href="#">Nadeem Mahomed</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#hero">Home Page</a></li>
+                <li class="nav-item"><a class="nav-link" href="#work">My Work</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#footer">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Jumbotron Section -->
+    <section id="hero" class="jumbotron text-center">
+        <img src="./Assets/images/profile-picture.jpeg"
+            alt="A picture of Nadeem, the person this website is about. Nadeem is smiling at the camera dressed in a blazer."
+            class="img-fluid rounded-circle" style="width: 150px;">
+        <h1 class="display-4">Nadeem Mahomed</h1>
+        <p class="lead">Web Artisan</p>
+    </section>
+
+    <!-- Projects/Work Section -->
+    <section id="work" class="container mt-5">
+        <h2 class="text-center mb-4">My Work</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./Assets/images/portfolio-item-3.png" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Tiranga.co.uk</h5>
+                        <p class="card-text">A Restaurant Website.</p>
+                        <a href="https://tiranga.co.uk/" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./Assets/images/portfolio-item-1.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">edX Skills Bootcamp Study Guide</h5>
+                        <p class="card-text">A Simple Web App.</p>
+                        <a href="https://nadeemamdev.github.io/prework-study-guide/" class="btn btn-primary">View
+                            Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./Assets/images/portfolio-item-2.png" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Marketing Agency Website</h5>
+                        <p class="card-text">Refactored for Accessibility.</p>
+                        <a href="https://nadeemamdev.github.io/module-1-challenge/" class="btn btn-primary">View
+                            Project</a>
+                    </div>
+                </div>
             </div>
         </div>
-    </header>
+    </section>
 
+    <!-- Skills/About Me Section -->
+    <section id="skills-about" class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="text-center mb-4">My Skills</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">HTML</li>
+                    <li class="list-group-item">CSS</li>
+                    <li class="list-group-item">JavaScript</li>
+                    <li class="list-group-item">CLI</li>
+                    <li class="list-group-item">UI/UX Design</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h2 class="text-center mb-4">About Me - Who is Nadeem?</h2>
+                <p>I've always loved technology. I am currently in edX's Skills Bootcamp, pursuing a career as a Web
+                    Developer. I will graduate in March 2023 and be in an industry role by June 2023. </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="text-center p-3 mt-5">
+        <p>&copy; 2023 Nadeem Mahomed. All rights reserved.</p>
+    </footer>
     <!-- Bootstrap Component Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 </body>
 
