@@ -15,7 +15,7 @@ Note: I am currently on the Front End Web Developer course.
 
 ## Usage
 
-[Click this link to visit the site on Github pages](https://nadeemamdev.github.io/bootstrap-portfolio/)
+[Click this link to visit the site on Github pages](https://nadeemamdev.github.io/Bootstrap-Portfolio/)
 
 [Click this link to visit the previous site on Github pages, so you can compare my improvements to the previous site](https://nadeemamdev.github.io/module-2-challenge/)
 
