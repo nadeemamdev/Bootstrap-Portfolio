@@ -1,0 +1,13 @@
+/* Global color variables */
+:root {
+  --constrast-color: #110644;
+  --primary-accent-color: #d50a84;
+  --primary-accent-color-darker: #f127a0;
+  --text-color: #fbfcfd;
+  --secondary-accent-color-1: #1c1c1c;
+  --secondary-accent-color-2: #41484e;
+}
+/* Style Nav bar */
+.bg-dark {
+  background-color: var(--constrast-color) !important;
+}
