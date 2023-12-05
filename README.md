@@ -2,9 +2,11 @@
 
 ## Description
 
-I was tasked to use my newfound Bootstrap skills to recrate/improve my portfolio page, which I can add to as the edX Skills Bootcamp course progresses.
+I was tasked to use my newfound Bootstrap skills to recreate/improve my portfolio page, which I can add to as the edX Skills Bootcamp course progresses.
 
-Note: I am currently on the Front End Course, as opposed to the Full Stack course.
+A special challenge was to use a minimum amount of CSS media queries, and instead take advantage of Bootstrap's Grid system. 
+
+Note: I am currently on the Front End Web Developer course.
 
 ## Table of Contents
 
