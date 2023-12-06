@@ -68,7 +68,7 @@ img:hover {
 #contact div textarea {
     border-color: var(--primary-accent-color);
 }
-#contact div button {
+#contact button {
     background-color: var(--primary-accent-color);
     color: var(--text-color);
 }
