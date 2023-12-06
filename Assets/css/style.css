@@ -64,11 +64,12 @@ img:hover {
   }
 }
 /* Contact Section */
-form input,
-form textarea {
+form div input,
+form div textarea {
     border-color: var(--primary-accent-color);
 }
 form button {
     background-color: var(--primary-accent-color);
     color: var(--text-color);
 }
+
