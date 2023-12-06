@@ -63,3 +63,12 @@ img:hover {
     margin-top: 24px;
   }
 }
+/* Contact Section */
+form input,
+form textarea {
+    border-color: var(--primary-accent-color);
+}
+form button {
+    background-color: var(--primary-accent-color);
+    color: var(--text-color);
+}
